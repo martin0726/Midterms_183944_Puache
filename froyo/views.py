@@ -32,4 +32,20 @@ class RecipesUpdateView(generic.UpdateView):
 
 class RecipesCreateView(generic.CreateView):
 	template_name = 'recipes_create_form.html'
+
+
+class OrdersListView(generic.ListView):
+	template_name = 'orders_list.html'
+
+
+class OrdersDetailView(generic.DetailView):
+	template_name = 'orders_detail.html'
+
+
+class OrdersUpdateView(generic.UpdateView):
+	template_name = 'orders_update_form.html'
+
+
+class OrdersCreateView(generic.CreateView):
+	template_name = 'orders_create_form.html'
 # Create your views here.

@@ -7,5 +7,10 @@ urlpatterns = [
 		url(r'^ingredients_detail$', IngredientsDetailView.as_view(), name='Ingredients_Detail_show'),
 		url(r'^ingredients_update$', IngredientsUpdateView.as_view(), name='Ingredients_Update_show'),
 		url(r'^ingredients_create$', IngredientsCreateView.as_view(), name='Ingredients_Create_show'),
+		
+		url(r'^recipes_list$', RecipesListView.as_view(), name='Recipes_List_show'),
+		url(r'^recipes_detail$', RecipesDetailView.as_view(), name='Recipes_Detail_show'),
+		url(r'^recipes_update$', RecipesUpdateView.as_view(), name='Recipes_Update_show'),
+		url(r'^recipes_create$', RecipesCreateView.as_view(), name='Recipes_Create_show'),
 
 ]	
